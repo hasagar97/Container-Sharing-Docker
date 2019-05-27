@@ -18,7 +18,7 @@ will be given a username and a password and storage space. The project interface
 automation module and the admin module will run on the same server. To know more about
 these modules refer below to Architecture
 
-##Intended Audience
+## Intended Audience
 
 The members of programming club are the immediate audience of this software. This software
 will help the Coordiantors to monitor, handle and allocate server resources easily and
