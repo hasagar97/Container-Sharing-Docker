@@ -61,10 +61,10 @@ def assignContainer():
         # os.popen("docker restart "+container_name)
         # time.sleep(1)
         # os.popen("docker exec -it "+container_name+" bash")
-        # adduser_cmd = 'docker exec -i -t '+container_name+' sh -c "useradd -p 22BybsvCXL8so '+container_user+'"'
-        # os.popen(adduser_cmd)
+        adduser_cmd = 'docker exec -i -t '+container_name+' sh -c "useradd -p 22BybsvCXL8so '+container_user+'"'
+        os.popen(adduser_cmd)
         # os.popen("docker restart "+container_name)
-        # os.popen('docker exec -i -t '+container_name+' sh -c "mkdir /home/'+container_user+'"')
+        os.popen('docker exec -i -t '+container_name+' sh -c "mkdir /home/'+container_user+'"')
         
 
         # fo = open("next.txt", "r+")
