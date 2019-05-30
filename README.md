@@ -47,6 +47,10 @@ particular location on the containers.
 ![Architecture](files/architechture.png)
 Figure 1: Block diagram for working of the components.
 
+### WorkFlow
+
+![Workflow.](files/workflow.png)
+Figure 2: Flow of control and processing in my platform.
 
 ##Components
 

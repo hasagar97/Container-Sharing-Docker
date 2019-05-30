@@ -9,9 +9,9 @@ import numpy as np
 # Proj_cmd='chmod 777 /manager/users.npy' # | tail -n 6'
 # Proj_res= os.popen(Proj_cmd).read()
 
-# users=['root','sparrow']
+users=['hrishi','hrishi2']
 # np.save('users',users)
-users=np.load('/manager/users.npy')
+# users=np.load('/manager/users.npy')
 cpu_sum=[0] * len(users) 
 
 iterations=10
@@ -44,7 +44,8 @@ for i in range(len(users)):
 	print(users[i],cpu_sum[i])
 
 data=np.array([users,cpu_sum])
-np.save('data',data)
+data[::-1].sort()
+np.save('/manager/data',data)
 
 
 todo= '''
